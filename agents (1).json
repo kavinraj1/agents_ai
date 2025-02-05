@@ -1,0 +1,34 @@
+{
+  "apiVersion": "1.0",
+  "baseUrl": "https://cd7f12ee-84d8-4df5-abab-e51376a4cdba-00-25no0af7qjicw.worf.replit.dev",
+  "pages": {
+    "/products": {
+      "uiInteractions": {
+        "sortOptions": {
+          "selector": "#sort-by",
+          "description": "Dropdown to sort products"
+        },
+        "selectProduct": {
+          "selector": ".product-item:first-child",
+          "description": "Selects the first product"
+        }
+      }
+    },
+    "/product-detail": {
+      "uiInteractions": {
+        "addToCart": {
+          "selector": "#add-to-cart",
+          "description": "Adds the selected product to the cart"
+        }
+      }
+    },
+    "/cart": {
+      "uiInteractions": {
+        "checkout": {
+          "selector": "#checkout-button",
+          "description": "Proceeds to checkout"
+        }
+      }
+    }
+  }
+}

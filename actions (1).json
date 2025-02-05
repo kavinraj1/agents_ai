@@ -1,0 +1,16 @@
+{
+    "actions": [
+        {
+            "action": "navigate",
+            "url": "https://www.google.com"
+        },
+        {
+            "action": "enter_text",
+            "selector": "input[name='q']",
+            "text": "best cars site:bmw.com"
+        },
+        {
+            "action": "press_enter"
+        }
+    ]
+}
