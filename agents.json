@@ -1,0 +1,25 @@
+{
+  "apiVersion": "1.0",
+  "baseUrl": "https://www.google.com",
+  "pages": {
+    "/search": {
+      "uiInteractions": {
+        "searchBox": {
+          "selector": "input[name='q']",
+          "description": "Google search input box",
+          "agent_instructions": "Enter the search query here and press enter."
+        },
+        "searchButton": {
+          "selector": "input[name='btnK']",
+          "description": "Google search button",
+          "agent_instructions": "Click the search button to submit the query."
+        },
+        "searchResults": {
+          "selector": "h3",
+          "description": "List of search result titles",
+          "agent_instructions": "Extract the titles and links of the top search results."
+        }
+      }
+    }
+  }
+}
